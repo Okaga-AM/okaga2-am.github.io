@@ -4,22 +4,22 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .main { max-width: 10vw;
         margin-left: 0;
         gap: 0px;
-        display: flex;
-        flex-direction: column;
+       
         padding: 0;
         align-items: baseline;
         
     }
     .flowers{
-        margin-left: 0;
+        margin-left: 0px;
     }
     .intro{
         max-width: 320px;
         margin-right: 0;
+        padding: 1em;
         
     }
     .int{
@@ -81,10 +81,8 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 2rem;
+    
     align-items: center;
-    
-    
     gap: 50px;
 }
 ul li{
